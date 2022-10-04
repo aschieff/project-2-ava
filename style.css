@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(172, 125, 63) ;
+    margin: 0;
+}
+#main-photo {
+    width: 100%;
+}
+#second-photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#third-photo {
+    margin-left: auto;
+    width: 50%;
+}
+#fourth-photo {
+    margin-left: auto;
+    width: 50%;
+}
+.topnav {
+    background-color: rgba(19, 17, 14, 0.514);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12em;
+}
+.topnav a:hover {
+    background-color: rgba(19, 17, 14, 0.514);
+    color: black;
+}
+.topnav a.active {
+    background-color: rgb(19, 17, 14);
+    color: white;
+}  
