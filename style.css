@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(172, 125, 63) ;
+    background-color: rgb(88, 78, 63) ;
     margin: 0;
 }
-#main-photo {
+#Main-image {
     width: 100%;
 }/*
 #second-photo {
@@ -36,32 +36,30 @@ body {
 }
 .topnav a.active {
     background-color: rgb(19, 17, 14);
-    color: white;
+    color: rgb(184, 138, 68);
 } 
 .content-left, .content-right {
-  
-    display: inline-block;
-    float: left;
-    width: 1080px;
+  display: flex;
+  width: 100%;
+    
    
 }
 .content-left img, .content-right img {
     height: 480px;
     border-radius: 8px;
+    padding-top: 2%;
 }
 .content-left p {
-    display: inline;
-    float: right; 
-    margin: 1em;
+    flex-basis: 67%;
+    padding-top: 2%;
+    padding-left: 2%;
 } 
 .content-right p {
-    display: inline;
-    float: left; 
-    margin: 1em;
+    order: -1;
+    flex-basis: 67%;
+    padding-top: 2%;
 }
 .grid-container {
-    display: grid;
-    grid-gap: 50px;
-    width: fit-content;
-    margin: auto;
+    width: 85%;
+    margin: 0 auto;
 }
