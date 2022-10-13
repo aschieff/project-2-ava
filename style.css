@@ -4,7 +4,7 @@ body {
 }
 #main-photo {
     width: 100%;
-}
+}/*
 #second-photo {
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@ body {
 #fourth-photo {
     margin-left: auto;
     width: 50%;
-}
+}*/
 .topnav {
     background-color: rgba(19, 17, 14, 0.514);
     overflow: hidden;
@@ -28,7 +28,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 12em;
+    font-size: 2em; 
 }
 .topnav a:hover {
     background-color: rgba(19, 17, 14, 0.514);
@@ -37,4 +37,31 @@ body {
 .topnav a.active {
     background-color: rgb(19, 17, 14);
     color: white;
-}  
+} 
+.content-left, .content-right {
+  
+    display: inline-block;
+    float: left;
+    width: 1080px;
+   
+}
+.content-left img, .content-right img {
+    height: 480px;
+    border-radius: 8px;
+}
+.content-left p {
+    display: inline;
+    float: right; 
+    margin: 1em;
+} 
+.content-right p {
+    display: inline;
+    float: left; 
+    margin: 1em;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    width: fit-content;
+    margin: auto;
+}
