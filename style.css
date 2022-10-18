@@ -1,6 +1,14 @@
 body {
-    background: linear-gradient(to bottom, #332510 40%, #af9778 100%);
+    background: linear-gradient(to bottom, #423015 40%, #af9778 100%);
     margin: 0;
+}
+footer {
+    background-color:#423015;
+    height: 8ch;
+    text-align: center;
+    font-size: 3ch;
+    color: rgb(202, 173, 135);
+    margin-top: 3ch;
 }
 #Main-image {
     width: 100%;
@@ -43,7 +51,7 @@ body {
   display: flex;
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif; 
-  font-size: 3ch;
+  font-size: 3.5ch;
   color: rgb(26, 23, 21);
    
 }
@@ -56,6 +64,7 @@ body {
     flex-basis: 67%;
     padding-top: 2%;
     padding-left: 2%;
+    padding-bottom: 2%;
 } 
 .content-right p {
     order: -1;
