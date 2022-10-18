@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(88, 78, 63) ;
+    background: linear-gradient(to bottom, #332510 40%, #af9778 100%);
     margin: 0;
 }
 #Main-image {
@@ -38,10 +38,13 @@ body {
     background-color: rgb(19, 17, 14);
     color: rgb(184, 138, 68);
 } 
+
 .content-left, .content-right {
   display: flex;
   width: 100%;
-    
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-size: 3ch;
+  color: rgb(26, 23, 21);
    
 }
 .content-left img, .content-right img {
@@ -63,3 +66,4 @@ body {
     width: 85%;
     margin: 0 auto;
 }
+
